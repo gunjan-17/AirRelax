@@ -37,14 +37,14 @@ class MainWindow(Toplevel):
         self.title("AirRelax - Elevating Airport Comfort")
 
         self.geometry("1012x506")
-        self.configure(bg="#5E95FF")
+        self.configure(bg="#E998E3")
 
         self.current_window = None
         self.current_window_label = StringVar()
 
         self.canvas = Canvas(
             self,
-            bg="#5E95FF",
+            bg="#E998E3",
             height=506,
             width=1012,
             bd=0,
@@ -70,7 +70,7 @@ class MainWindow(Toplevel):
             borderwidth=0,
             highlightthickness=0,
             command=lambda: self.handle_btn_press(self.dashboard_btn, "dash"),
-            cursor='hand2', activebackground="#5E95FF",
+            cursor='hand2', activebackground="#E998E3",
             relief="flat",
         )
         self.dashboard_btn.place(x=7.0, y=133.0, width=208.0, height=47.0)
@@ -82,7 +82,7 @@ class MainWindow(Toplevel):
             borderwidth=0,
             highlightthickness=0,
             command=lambda: self.handle_btn_press(self.rooms_btn, "roo"),
-            cursor='hand2', activebackground="#5E95FF",
+            cursor='hand2', activebackground="#E998E3",
             relief="flat",
         )
         self.rooms_btn.place(x=7.0, y=183.0, width=208.0, height=47.0)
@@ -94,7 +94,7 @@ class MainWindow(Toplevel):
             borderwidth=0,
             highlightthickness=0,
             command=lambda: self.handle_btn_press(self.guests_btn, "gue"),
-            cursor='hand2', activebackground="#5E95FF",
+            cursor='hand2', activebackground="#E998E3",
             relief="flat",
         )
         self.guests_btn.place(x=7.0, y=283.0, width=208.0, height=47.0)
@@ -106,7 +106,7 @@ class MainWindow(Toplevel):
             borderwidth=0,
             highlightthickness=0,
             command=lambda: self.handle_btn_press(self.about_btn, "abt"),
-            cursor='hand2', activebackground="#5E95FF",
+            cursor='hand2', activebackground="#E998E3",
             relief="flat",
         )
         self.about_btn.place(x=7.0, y=333.0, width=208.0, height=47.0)
@@ -129,7 +129,7 @@ class MainWindow(Toplevel):
             borderwidth=0,
             highlightthickness=0,
             command=lambda: self.handle_btn_press(self.reservations_btn, "res"),
-            cursor='hand2', activebackground="#5E95FF",
+            cursor='hand2', activebackground="#E998E3",
             relief="flat",
         )
         self.reservations_btn.place(x=7.0, y=233.0, width=208.0, height=47.0)
@@ -139,7 +139,7 @@ class MainWindow(Toplevel):
             33.0,
             anchor="nw",
             text="Hello",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 
@@ -166,7 +166,7 @@ class MainWindow(Toplevel):
             213.0,
             anchor="nw",
             text="(The screens below",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 48 * -1),
         )
 
@@ -175,7 +175,7 @@ class MainWindow(Toplevel):
             272.0,
             anchor="nw",
             text="will come here)",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 48 * -1),
         )
 
