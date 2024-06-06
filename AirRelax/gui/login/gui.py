@@ -40,11 +40,11 @@ class Login(Toplevel):
         self.title("Login - AirRelax")
 
         self.geometry("1012x506")
-        self.configure(bg="#5E95FF")
+        self.configure(bg="#E998E3")
 
         self.canvas = Canvas(
             self,
-            bg="#5E95FF",
+            bg="#E998E3",
             height=506,
             width=1012,
             bd=0,
@@ -72,7 +72,7 @@ class Login(Toplevel):
             306.0,
             anchor="nw",
             text="Password",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -81,7 +81,7 @@ class Login(Toplevel):
             204.0,
             anchor="nw",
             text="Username",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -90,7 +90,7 @@ class Login(Toplevel):
             66.0,
             anchor="nw",
             text="Enter your login details",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 
