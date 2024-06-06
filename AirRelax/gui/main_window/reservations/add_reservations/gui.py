@@ -42,7 +42,7 @@ class AddReservations(Frame):
             128.0,
             anchor="nw",
             text="PNR Id",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -67,7 +67,7 @@ class AddReservations(Frame):
             234.0,
             anchor="nw",
             text="Is Taking Meal",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -92,7 +92,7 @@ class AddReservations(Frame):
             128.0,
             anchor="nw",
             text="Lounge Id",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -117,7 +117,7 @@ class AddReservations(Frame):
             234.0,
             anchor="nw",
             text="Check-in Time",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -150,7 +150,7 @@ class AddReservations(Frame):
             59.0,
             anchor="nw",
             text="Add a Reservation",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 
@@ -159,7 +159,7 @@ class AddReservations(Frame):
             59.0,
             anchor="nw",
             text="Operations",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 

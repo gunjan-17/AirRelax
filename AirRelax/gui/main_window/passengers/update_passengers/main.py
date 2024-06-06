@@ -62,7 +62,7 @@ class UpdatePassengers(Frame):
             33.0,
             anchor="nw",
             text="Update Passenger",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 
@@ -94,7 +94,7 @@ class UpdatePassengers(Frame):
             145.0,
             anchor="nw",
             text="PNR ID",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -115,7 +115,7 @@ class UpdatePassengers(Frame):
             251.0,
             anchor="nw",
             text="Passenger Address",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -144,7 +144,7 @@ class UpdatePassengers(Frame):
             145.0,
             anchor="nw",
             text="Passenger Name",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -169,7 +169,7 @@ class UpdatePassengers(Frame):
             253.0,
             anchor="nw",
             text="Phone Number",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 

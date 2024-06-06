@@ -59,7 +59,7 @@ class ViewReservations(Frame):
             33.0,
             anchor="nw",
             text="View Reservations",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 
@@ -68,7 +68,7 @@ class ViewReservations(Frame):
             367.0,
             anchor="nw",
             text="Avail. Actions:",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 

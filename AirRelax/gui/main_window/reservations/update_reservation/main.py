@@ -65,7 +65,7 @@ class UpdateReservations(Frame):
             33.0,
             anchor="nw",
             text="Update Reservation",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 
@@ -97,7 +97,7 @@ class UpdateReservations(Frame):
             125.0,
             anchor="nw",
             text="Reservation ID",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -118,7 +118,7 @@ class UpdateReservations(Frame):
             221.0,
             anchor="nw",
             text="Is Taking Meal",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -143,7 +143,7 @@ class UpdateReservations(Frame):
             317.0,
             anchor="nw",
             text="Type",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -168,7 +168,7 @@ class UpdateReservations(Frame):
             125.0,
             anchor="nw",
             text="PNR Id",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -193,7 +193,7 @@ class UpdateReservations(Frame):
             221.0,
             anchor="nw",
             text="Check-in Time",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -218,7 +218,7 @@ class UpdateReservations(Frame):
             317.0,
             anchor="nw",
             text="Reservation Date",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -243,7 +243,7 @@ class UpdateReservations(Frame):
             125.0,
             anchor="nw",
             text="PNR Id",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -268,7 +268,7 @@ class UpdateReservations(Frame):
             221.0,
             anchor="nw",
             text="Check Out Time",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 

@@ -56,7 +56,7 @@ class AddPassengers(Frame):
             128.0,
             anchor="nw",
             text="Full Name",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -90,7 +90,7 @@ class AddPassengers(Frame):
             234.0,
             anchor="nw",
             text="Phone no.",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -124,7 +124,7 @@ class AddPassengers(Frame):
             128.0,
             anchor="nw",
             text="Address",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -158,7 +158,7 @@ class AddPassengers(Frame):
             234.0,
             anchor="nw",
             text="Email",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -200,7 +200,7 @@ class AddPassengers(Frame):
             59.0,
             anchor="nw",
             text="Add a new Passenger",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 
@@ -209,7 +209,7 @@ class AddPassengers(Frame):
             59.0,
             anchor="nw",
             text="Operations",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 
