@@ -38,7 +38,7 @@ class About(Frame):
             43.0,
             anchor="nw",
             text="AirRelax was created by",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 
@@ -64,7 +64,7 @@ class About(Frame):
             418.0,
             121.0,
             anchor="nw",
-            text="SW-Fan",
+            text="DB-designer",
             fill="#777777",
             font=("Montserrat Medium", 15 * -1),
         )
@@ -73,8 +73,8 @@ class About(Frame):
             56.0,
             138.0,
             anchor="nw",
-            text="Gunjan",
-            fill="#5E95FF",
+            text="Gunjan Duseja",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 
@@ -82,8 +82,8 @@ class About(Frame):
             418.0,
             138.0,
             anchor="nw",
-            text="Mehwish",
-            fill="#5E95FF",
+            text="Nandini",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 
@@ -91,8 +91,8 @@ class About(Frame):
             56.0,
             170.0,
             anchor="nw",
-            text="Duseja",
-            fill="#5E95FF",
+            text="& Mehwish Qureshi",
+            fill="#E998E3",
             font=("Montserrat Bold", 18 * -1),
         )
 
@@ -100,13 +100,13 @@ class About(Frame):
             418.0,
             170.0,
             anchor="nw",
-            text="Qureshi",
-            fill="#5E95FF",
+            text="Rajoria",
+            fill="#E998E3",
             font=("Montserrat Bold", 18 * -1),
         )
 
-        self.image_image_4 = PhotoImage(file=relative_to_assets("image_4.png"))
-        image_4 = self.canvas.create_image(308.0, 150.0, image=self.image_image_4)
+        #self.image_image_4 = PhotoImage(file=relative_to_assets("image_4.png"))
+        #image_4 = self.canvas.create_image(308.0, 150.0, image=self.image_image_4)
 
         self.canvas.create_rectangle(
             56.0, 197.0, 169.0, 199.0, fill="#FFFFFF", outline=""
@@ -116,15 +116,15 @@ class About(Frame):
             418.0, 197.0, 531.0, 199.0, fill="#FFFFFF", outline=""
         )
 
-        self.image_image_5 = PhotoImage(file=relative_to_assets("image_5.png"))
-        image_5 = self.canvas.create_image(669.0, 151.0, image=self.image_image_5)
+        #self.image_image_5 = PhotoImage(file=relative_to_assets("image_5.png"))
+        #image_5 = self.canvas.create_image(669.0, 151.0, image=self.image_image_5)
 
         self.canvas.create_text(
             197.0,
             352.0,
             anchor="nw",
-            text="© 2024-25 Gunjan, Mehwish and Nandini, All rights reserved",
-            fill="#5E95FF",
+            text="AirRelax: Where comfort meets efficiency",
+            fill="#E998E3",
             font=("Montserrat Bold", 16 * -1),
         )
 
@@ -133,7 +133,7 @@ class About(Frame):
             372.0,
             anchor="nw",
             text="DIS project",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 16 * -1),
         )
 
@@ -150,7 +150,7 @@ class About(Frame):
             418.0,
             223.0,
             anchor="nw",
-            text="Mehwish likes to kill his time in a world of",
+            text="Nandini likes to kill her time in a world of",
             fill="#777777",
             font=("Montserrat Medium", 13 * -1),
         )
@@ -186,7 +186,7 @@ class About(Frame):
             56.0,
             207.0,
             anchor="nw",
-            text="A coding-addict, entusiastic creator, and a",
+            text="Coding-addicts, entusiastic creators, and",
             fill="#777777",
             font=("Montserrat Medium", 13 * -1),
         )
@@ -195,7 +195,7 @@ class About(Frame):
             56.0,
             223.0,
             anchor="nw",
-            text="passionate learner, Gunjan likes to bring",
+            text="passionate learners, We like to bring",
             fill="#777777",
             font=("Montserrat Medium", 13 * -1),
         )
@@ -204,7 +204,7 @@ class About(Frame):
             56.0,
             239.0,
             anchor="nw",
-            text="perfection to anything she’s doing. She’s",
+            text="perfection to anything we are doing. We are",
             fill="#777777",
             font=("Montserrat Medium", 13 * -1),
         )
@@ -222,7 +222,7 @@ class About(Frame):
             56.0,
             271.0,
             anchor="nw",
-            text="Avengers fan.",
+            text="Bollywood fan.",
             fill="#777777",
             font=("Montserrat Medium", 13 * -1),
         )
