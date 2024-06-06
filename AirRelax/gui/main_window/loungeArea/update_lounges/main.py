@@ -63,7 +63,7 @@ class UpdateLounges(Frame):
             33.0,
             anchor="nw",
             text="Update Lounge",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 
@@ -95,7 +95,7 @@ class UpdateLounges(Frame):
             145.0,
             anchor="nw",
             text="Lounge ID",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -116,7 +116,7 @@ class UpdateLounges(Frame):
             251.0,
             anchor="nw",
             text="Lounge Type",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -145,7 +145,7 @@ class UpdateLounges(Frame):
             145.0,
             anchor="nw",
             text="Lounge Number",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -170,7 +170,7 @@ class UpdateLounges(Frame):
             253.0,
             anchor="nw",
             text="Price",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 

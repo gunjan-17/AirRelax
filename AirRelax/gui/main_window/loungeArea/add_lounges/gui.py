@@ -51,7 +51,7 @@ class AddLounges(Frame):
             128.0,
             anchor="nw",
             text="Lounge Number",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -85,7 +85,7 @@ class AddLounges(Frame):
             234.0,
             anchor="nw",
             text="Full Price",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -119,7 +119,7 @@ class AddLounges(Frame):
             128.0,
             anchor="nw",
             text="Type: (D)elux/(N)ormal",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -161,7 +161,7 @@ class AddLounges(Frame):
             58.0,
             anchor="nw",
             text="Add a Lounge",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 
@@ -170,7 +170,7 @@ class AddLounges(Frame):
             59.0,
             anchor="nw",
             text="Operations",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 

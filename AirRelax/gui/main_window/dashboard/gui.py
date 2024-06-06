@@ -51,7 +51,7 @@ class Dashboard(Frame):
             45.0,
             anchor="nw",
             text="Vacant",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -61,7 +61,7 @@ class Dashboard(Frame):
             63.0,
             anchor="ne",
             text=db_controller.vacant(),
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 48 * -1),
             justify="right",
         )
@@ -82,7 +82,7 @@ class Dashboard(Frame):
             45.0,
             anchor="nw",
             text="Booked",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -91,7 +91,7 @@ class Dashboard(Frame):
             63.0,
             anchor="ne",
             text=db_controller.booked(),
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 48 * -1),
             justify="right",
         )
@@ -123,7 +123,7 @@ class Dashboard(Frame):
         entry_5 = Entry(
             self,
             bd=0,
-            bg="#5E95FF",
+            bg="#E998E3",
             highlightthickness=0,
             font=("Montserrat Bold", 150),
         )
@@ -145,7 +145,7 @@ class Dashboard(Frame):
             200.0,
             anchor="nw",
             text="Booked",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 13 * -1),
         )
 
@@ -154,7 +154,7 @@ class Dashboard(Frame):
             222.0,
             anchor="nw",
             text="Vacant",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 13 * -1),
         )
 
@@ -174,7 +174,7 @@ class Dashboard(Frame):
             45.0,
             anchor="nw",
             text="Lounge Value",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -183,7 +183,7 @@ class Dashboard(Frame):
             63.0,
             anchor="ne",
             text=db_controller.get_total_Lounge_value(),
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 48 * -1),
         )
 
@@ -203,7 +203,7 @@ class Dashboard(Frame):
             45.0,
             anchor="nw",
             text="Meals Taken",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 14 * -1),
         )
 
@@ -212,7 +212,7 @@ class Dashboard(Frame):
             63.0,
             anchor="ne",
             text=db_controller.meals(),
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 48 * -1),
         )
 
@@ -232,7 +232,7 @@ class Dashboard(Frame):
             191.0,
             anchor="nw",
             text="Lounge Area",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 20 * -1),
         )
 
@@ -241,7 +241,7 @@ class Dashboard(Frame):
             223.0,
             anchor="nw",
             text="Status",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 16 * -1),
         )
 
@@ -250,7 +250,7 @@ class Dashboard(Frame):
             223.0,
             anchor="nw",
             text="By Type",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 18 * -1),
         )
 
@@ -259,7 +259,7 @@ class Dashboard(Frame):
             191.0,
             anchor="nw",
             text="Bookings",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 26 * -1),
         )
 
@@ -279,7 +279,7 @@ class Dashboard(Frame):
         entry_11 = Entry(
             self,
             bd=0,
-            bg="#5E95FF",
+            bg="#E998E3",
             highlightthickness=0,
             font=("Montserrat Bold", 150),
         )
@@ -301,7 +301,7 @@ class Dashboard(Frame):
             200.0,
             anchor="nw",
             text="Vacant",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 13 * -1),
         )
 
@@ -310,7 +310,7 @@ class Dashboard(Frame):
             222.0,
             anchor="nw",
             text="Booked",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 13 * -1),
         )
 
@@ -334,7 +334,7 @@ class Dashboard(Frame):
         entry_14 = Entry(
             self,
             bd=0,
-            bg="#5E95FF",
+            bg="#E998E3",
             highlightthickness=0,
             font=("Montserrat Bold", 150),
         )
@@ -358,7 +358,7 @@ class Dashboard(Frame):
             200.0,
             anchor="nw",
             text="Delux",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 13 * -1),
         )
 
@@ -367,7 +367,7 @@ class Dashboard(Frame):
             222.0,
             anchor="nw",
             text="Normal",
-            fill="#5E95FF",
+            fill="#E998E3",
             font=("Montserrat Bold", 13 * -1),
         )
 
@@ -382,7 +382,7 @@ class Dashboard(Frame):
             [db_controller.vacant(), db_controller.booked()],
             [0.1, 0.1],
             startangle=-30,
-            colors=("#6495ED", "#8A8A8A"),
+            colors=("#E568DC", "#8A8A8A"),
         )
 
         canvas1 = FigureCanvasTkAgg(fig, self)
@@ -393,7 +393,7 @@ class Dashboard(Frame):
         fig1.patch.set_facecolor("#eeefee")
 
         plot2 = fig1.add_subplot(111)
-        plot2.pie([5, 3], [0.1, 0.1], startangle=-30, colors=("#6495ED", "#8A8A8A"))
+        plot2.pie([5, 3], [0.1, 0.1], startangle=-30, colors=("#E568DC", "#8A8A8A"))
 
         canvas2 = FigureCanvasTkAgg(fig1, self)
         canvas2.draw()
